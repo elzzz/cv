@@ -1,0 +1,30 @@
+.profile {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+  text-transform: capitalize;
+}
+
+.profile__photo {
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 210px;
+  margin-bottom: 35px;
+  overflow: hidden;
+  width: 210px;
+
+  img {
+    margin-bottom: 35px;
+    max-width: 100%;
+  }
+}
+
+.profile__name {
+  font-size: 30px;
+  margin-bottom: 15px
+}
+
+.profile__work {
+  font-size: 20px;
+}

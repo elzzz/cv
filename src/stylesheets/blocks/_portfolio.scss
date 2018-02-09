@@ -1,0 +1,12 @@
+.portfolio__list {
+  font-size: 24px;
+  padding: 0;
+}
+
+.portfolio__list-item {
+  margin-bottom: 60px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
